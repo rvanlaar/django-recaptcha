@@ -41,8 +41,7 @@ Installation
    These can also be specificied per field by passing the ``public_key`` or
    ``private_key`` parameters to ``ReCaptchaField`` - see field usage below.
 
-#. If you would like to use the new No Captcha reCaptcha add the setting
-   ``NOCAPTCHA = True``. For example:
+#. reCAPTCHA V1 has been deprecated. To use reCAPTHA v2 set:
 
    .. code-block:: python
 
